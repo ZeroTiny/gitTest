@@ -11,3 +11,4 @@ curs_o.fetchall()
 conn_m = jaydebeapi.connect("com.mysql.jdbc.Driver","jdbc:oracle:thin:@192.168.95.73:1521:dfcwbitest",{'user':"ods_rfc20_m",'password':"ODS12qwe"},"D:\Seafile\BigFile\kettle\ojdbc7.jar")
 
 
+//我是matebook13
