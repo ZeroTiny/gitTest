@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+# coding:utf-8
+import jaydebeapi
+
+conn_o = jaydebeapi.connect("oracle.jdbc.driver.OracleDriver","jdbc:oracle:thin:@192.168.95.73:1521:dfcwbitest",{'user':"ods_rfc20_m",'password':"ODS12qwe"},"D:\Seafile\BigFile\kettle\ojdbc7.jar")
+curs_o = conn_o.cursor()
+curs_o.execute("Select * From dual")
+curs_o.fetchall()
+
+
+conn_m = jaydebeapi.connect("com.mysql.jdbc.Driver","jdbc:oracle:thin:@192.168.95.73:1521:dfcwbitest",{'user':"ods_rfc20_m",'password':"ODS12qwe"},"D:\Seafile\BigFile\kettle\ojdbc7.jar")
+
+
